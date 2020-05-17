@@ -1,0 +1,6 @@
+2020/05/18 02:58:46 {"engineTemp":32.4,"batteryTemp":26.3,"batteryPercent":56.2,"averageVoltage":72,"averageAmp":14,"allVoltage":[12,13,12.4],"allAmp":[23,55],"createdAt":"0001-01-01T00:00:00Z"}
+2020/05/18 02:58:49 {"engineTemp":32.4,"batteryTemp":26.3,"batteryPercent":56.2,"averageVoltage":72,"averageAmp":14,"allVoltage":[12,13,12.4],"allAmp":[23,55],"createdAt":"0001-01-01T00:00:00Z"}
+2020/05/18 02:58:52 {"engineTemp":32.4,"batteryTemp":26.3,"batteryPercent":56.2,"averageVoltage":72,"averageAmp":14,"allVoltage":[12,13,12.4],"allAmp":[23,55],"createdAt":"0001-01-01T00:00:00Z"}
+2020/05/18 02:58:55 {"engineTemp":32.4,"batteryTemp":26.3,"batteryPercent":56.2,"averageVoltage":72,"averageAmp":14,"allVoltage":[12,13,12.4],"allAmp":[23,55],"createdAt":"0001-01-01T00:00:00Z"}
+2020/05/18 02:58:58 {"engineTemp":32.4,"batteryTemp":26.3,"batteryPercent":56.2,"averageVoltage":72,"averageAmp":14,"allVoltage":[12,13,12.4],"allAmp":[23,55],"createdAt":"0001-01-01T00:00:00Z"}
+2020/05/18 02:59:01 {"engineTemp":32.4,"batteryTemp":26.3,"batteryPercent":56.2,"averageVoltage":72,"averageAmp":14,"allVoltage":[12,13,12.4],"allAmp":[23,55],"createdAt":"0001-01-01T00:00:00Z"}

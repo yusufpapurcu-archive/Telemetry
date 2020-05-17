@@ -1,0 +1,7 @@
+02:58:46 setSocket.go:76: {"engineTemp":32.4,"batteryTemp":26.3,"batteryPercent":56.2,"averageVoltage":72,"averageAmp":14,"allVoltage":[12,13,12.4],"allAmp":[23,55],"createdAt":"0001-01-01T00:00:00Z"}
+02:58:49 setSocket.go:76: {"engineTemp":32.4,"batteryTemp":26.3,"batteryPercent":56.2,"averageVoltage":72,"averageAmp":14,"allVoltage":[12,13,12.4],"allAmp":[23,55],"createdAt":"0001-01-01T00:00:00Z"}
+02:58:52 setSocket.go:76: {"engineTemp":32.4,"batteryTemp":26.3,"batteryPercent":56.2,"averageVoltage":72,"averageAmp":14,"allVoltage":[12,13,12.4],"allAmp":[23,55],"createdAt":"0001-01-01T00:00:00Z"}
+02:58:55 setSocket.go:76: {"engineTemp":32.4,"batteryTemp":26.3,"batteryPercent":56.2,"averageVoltage":72,"averageAmp":14,"allVoltage":[12,13,12.4],"allAmp":[23,55],"createdAt":"0001-01-01T00:00:00Z"}
+02:58:58 setSocket.go:76: {"engineTemp":32.4,"batteryTemp":26.3,"batteryPercent":56.2,"averageVoltage":72,"averageAmp":14,"allVoltage":[12,13,12.4],"allAmp":[23,55],"createdAt":"0001-01-01T00:00:00Z"}
+02:59:01 setSocket.go:76: {"engineTemp":32.4,"batteryTemp":26.3,"batteryPercent":56.2,"averageVoltage":72,"averageAmp":14,"allVoltage":[12,13,12.4],"allAmp":[23,55],"createdAt":"0001-01-01T00:00:00Z"}
+02:59:02 setSocket.go:72: read: websocket: close 1006 (abnormal closure): unexpected EOF
