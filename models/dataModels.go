@@ -1,8 +1,8 @@
-package socket
+package models
 
 import "time"
 
-type solidData struct {
+type SolidData struct {
 	EngineTemp     float32   `bson:"engineTemp,omitempty" json:"engineTemp,omitempty"`         // Engine Temperature variable
 	BatteryTemp    float32   `bson:"batteryTemp,omitempty" json:"batteryTemp,omitempty"`       // Battery Temperature varible
 	Velocity       float32   `bson:"velocity,omitempty" json:"velocity,omitempty"`             // Velocity variable
@@ -16,4 +16,4 @@ type solidData struct {
 	CreatedAt      time.Time `bson:"createdAt,omitempty" json:"createdAt,omitempty"`
 }
 
-type specialData map[string]string // Special data type. This have a another socket
+type SpecialData map[string]string // Special data type. This have a another socket

@@ -1,12 +1,16 @@
 package socket
 
 import (
+	"encoding/json"
 	"log"
 	"net/http"
 	"os"
 
+	"github.com/yusufpapurcu/Telemetry/models"
+
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
+	"github.com/yusufpapurcu/Telemetry/database"
 )
 
 var waiters = make(map[*websocket.Conn]bool)
@@ -21,13 +25,13 @@ var upgrader = websocket.Upgrader{
 func init() {
 	f, err := os.Create("logs/log.txt")
 	if err != nil {
-		log.Fatal(err)
+		log.Println(err)
 	}
 	logger = log.New(f, "", log.Ltime)
 	logger.SetFlags(log.Lshortfile | log.Ltime)
 	f, err = os.Create("logs/data.txt")
 	if err != nil {
-		logger.Fatal(err)
+		logger.Println("Create Data Log Error: ", err)
 	}
 	dataSaver = log.New(f, "", log.Lmsgprefix)
 	dataSaver.SetFlags(log.Ldate | log.Ltime)
@@ -52,7 +56,7 @@ func manager() {
 				continue
 			}
 			if err := ws.WriteMessage(1, a); err != nil {
-				logger.Fatal(err)
+				logger.Println("Brodcast Error :", err)
 				waiters[ws] = false
 			}
 		}
@@ -63,17 +67,23 @@ func manager() {
 func ListenerForCar(c *gin.Context) {
 	ws, err := upgrader.Upgrade(c.Writer, c.Request, nil)
 	if err != nil {
-		logger.Fatal(err)
+		logger.Println(err)
 	}
 	defer ws.Close()
 	for {
 		_, message, err := ws.ReadMessage()
 		if err != nil {
-			logger.Println("read:", err)
+			logger.Println("Read Error:", err)
 			break
 		}
 		dataSaver.Println(string(message))
-		logger.Println(string(message))
+		var data models.SolidData
+		err = json.Unmarshal(message, &data)
+		if err != nil {
+			logger.Println(err)
+		}
+		logger.Println(data)
+		database.WriteDataFrame(data)
 		broadcast <- message
 	}
 
@@ -83,7 +93,7 @@ func ListenerForCar(c *gin.Context) {
 func DataWaiters(c *gin.Context) {
 	ws, err := upgrader.Upgrade(c.Writer, c.Request, nil)
 	if err != nil {
-		logger.Fatal(err)
+		logger.Println("Logging Error", err)
 	}
 
 	// register waiter

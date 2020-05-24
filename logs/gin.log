@@ -1,0 +1,8 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
