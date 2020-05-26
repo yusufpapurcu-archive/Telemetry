@@ -1,6 +1,8 @@
 package main
 
 import (
+	"flag"
+	"fmt"
 	"io"
 	"log"
 	"os"
@@ -12,6 +14,9 @@ import (
 )
 
 func init() {
+	gin.DisableConsoleColor()
+	f, _ := os.Create("logs/gin.log")
+	gin.DefaultWriter = io.MultiWriter(f)
 	f, err := os.Create("logs/log.txt")
 	if err != nil {
 		log.Println(err)
@@ -30,16 +35,30 @@ func init() {
 }
 
 func main() {
-	gin.DisableConsoleColor()
-	database.Connect("mongodb://Test:test12@ds141674.mlab.com:41674/login")
-	f, _ := os.Create("logs/gin.log")
-	gin.DefaultWriter = io.MultiWriter(f, os.Stdout)
+	url, port := setParams()
+	database.Connect(url)
 
 	route := gin.New()
 	route.Use(gin.Recovery())
 
 	socket.SetSockets(route)
-	if err := route.Run(); err != nil {
+	if err := route.Run(port); err != nil {
 		log.Fatal(err)
 	}
+}
+
+func setParams() (string, string) {
+	var env bool
+	var url, port string
+	flag.BoolVar(&env, "env", false, "Bool Flag.\nUse for Switch Flags/Envs.\nDefault False(Flag)")
+	flag.StringVar(&url, "url", "mongodb://localhost:27017", "String Flag.\nDefine url by Using This.\nDefault mongodb://localhost:27017")
+	flag.StringVar(&port, "port", ":8080", "String Flag.\nDefine Port by Using This.\nDefault 8080")
+	flag.Parse()
+	if env {
+		url := os.Getenv("DB_URL")
+		port := os.Getenv("TELEMPORT")
+		fmt.Println(url, "\n", port)
+		return url, port
+	}
+	return url, port
 }

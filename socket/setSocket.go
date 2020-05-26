@@ -59,13 +59,13 @@ func ListenerForCar(c *gin.Context) {
 			logger.Println("Read Error:", err)
 			break
 		}
-		dataSaver.Println(string(message))
 		var data models.SolidData
 		err = json.Unmarshal(message, &data)
 		if err != nil {
 			logger.Println(err)
+			continue
 		}
-		logger.Println(data)
+		dataSaver.Println(string(message))
 		database.WriteDataFrame(data)
 		broadcast <- message
 	}
