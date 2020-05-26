@@ -9,8 +9,8 @@ import (
 )
 
 func WriteDataFrame(data models.SolidData) {
-	ctx, _ := context.WithTimeout(context.Background(), 5*time.Second) // Context for Create function
-	res, err := col.InsertOne(ctx, data)                               // Create Function
+	data.CreatedAt = time.Now().Unix()
+	res, err := col.InsertOne(context.TODO(), data) // Create Function
 	if err != nil {
 		log.Println(err)
 		return

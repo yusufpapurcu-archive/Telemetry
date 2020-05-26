@@ -1,7 +1,5 @@
 package models
 
-import "time"
-
 type SolidData struct {
 	EngineTemp     float32   `bson:"engineTemp,omitempty" json:"engineTemp,omitempty"`         // Engine Temperature variable
 	BatteryTemp    float32   `bson:"batteryTemp,omitempty" json:"batteryTemp,omitempty"`       // Battery Temperature varible
@@ -13,7 +11,7 @@ type SolidData struct {
 	AllAmp         []float32 `bson:"allAmp,omitempty" json:"allAmp,omitempty"`                 // All Amper from cells
 	ErrorStatus    int       `bson:"errorStatus,omitempty" json:"errorStatus,omitempty"`       // Error Status. Look at ErrorStatus map
 	SpecialError   string    `bson:"specialError,omitempty" json:"specialError,omitempty"`     // Special error text
-	CreatedAt      time.Time `bson:"createdAt,omitempty" json:"createdAt,omitempty"`
+	CreatedAt      int64     `bson:"createdAt,omitempty" json:"createdAt,omitempty"`
 }
 
 type SpecialData map[string]string // Special data type. This have a another socket
