@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
-	"os"
 
 	"github.com/yusufpapurcu/Telemetry/models"
 
@@ -20,22 +19,6 @@ var upgrader = websocket.Upgrader{
 	CheckOrigin: func(r *http.Request) bool {
 		return true
 	},
-}
-
-func init() {
-	f, err := os.Create("logs/log.txt")
-	if err != nil {
-		log.Println(err)
-	}
-	logger = log.New(f, "", log.Ltime)
-	logger.SetFlags(log.Lshortfile | log.Ltime)
-	f, err = os.Create("logs/data.txt")
-	if err != nil {
-		logger.Println("Create Data Log Error: ", err)
-	}
-	dataSaver = log.New(f, "", log.Lmsgprefix)
-	dataSaver.SetFlags(log.Ldate | log.Ltime)
-
 }
 
 // SetSockets a main function of this package
@@ -98,4 +81,9 @@ func DataWaiters(c *gin.Context) {
 
 	// register waiter
 	waiters[ws] = true
+}
+
+// SetLoggerSocket function will be get logger structs from main
+func SetLoggerSocket(log, ds *log.Logger) {
+	logger, dataSaver = log, ds
 }

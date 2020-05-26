@@ -11,6 +11,24 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+func init() {
+	f, err := os.Create("logs/log.txt")
+	if err != nil {
+		log.Println(err)
+	}
+	logger := log.New(f, "", log.Ltime)
+	logger.SetFlags(log.Lshortfile | log.Ltime)
+	database.SetLoggerDB(logger)
+
+	f, err = os.Create("logs/data.txt")
+	if err != nil {
+		logger.Println("Create Data Log Error: ", err)
+	}
+	dataSaver := log.New(f, "", log.Lmsgprefix)
+	dataSaver.SetFlags(log.Ldate | log.Ltime)
+	socket.SetLoggerSocket(logger, dataSaver)
+}
+
 func main() {
 	gin.DisableConsoleColor()
 	database.Connect("mongodb://Test:test12@ds141674.mlab.com:41674/login")

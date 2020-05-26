@@ -1,2 +1,354 @@
-19:43:05 setSocket.go:85: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0001-01-01 00:00:00 +0000 UTC}
-19:43:09 setSocket.go:76: Read Error: websocket: close 1005 (no status)
+23:01:40 setSocket.go:66: invalid character 'S' looking for beginning of value
+23:01:40 setSocket.go:68: {0 0 0 0 0 0 [] [] 0  0}
+23:01:40 write.go:22: ObjectID("5ecd75a4f3dfed2ebd3433c4")
+23:01:59 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:01:59 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:01:59 write.go:22: ObjectID("5ecd75b7f3dfed2ebd3433c5")
+23:02:02 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:02 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:02 write.go:22: ObjectID("5ecd75baf3dfed2ebd3433c6")
+23:02:03 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:03 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:03 write.go:22: ObjectID("5ecd75bbf3dfed2ebd3433c7")
+23:02:03 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:03 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:03 write.go:22: ObjectID("5ecd75bbf3dfed2ebd3433c8")
+23:02:05 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:05 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:05 write.go:22: ObjectID("5ecd75bdf3dfed2ebd3433c9")
+23:02:06 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:06 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:06 write.go:22: ObjectID("5ecd75bef3dfed2ebd3433ca")
+23:02:06 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:06 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:06 write.go:22: ObjectID("5ecd75bef3dfed2ebd3433cb")
+23:02:06 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:06 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:06 write.go:22: ObjectID("5ecd75bef3dfed2ebd3433cc")
+23:02:06 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:06 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:06 write.go:22: ObjectID("5ecd75bef3dfed2ebd3433cd")
+23:02:06 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:06 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:07 write.go:22: ObjectID("5ecd75bef3dfed2ebd3433ce")
+23:02:07 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:07 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:07 write.go:22: ObjectID("5ecd75bff3dfed2ebd3433cf")
+23:02:07 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:07 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:07 write.go:22: ObjectID("5ecd75bff3dfed2ebd3433d0")
+23:02:07 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:07 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:07 write.go:22: ObjectID("5ecd75bff3dfed2ebd3433d1")
+23:02:07 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:07 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:07 write.go:22: ObjectID("5ecd75bff3dfed2ebd3433d2")
+23:02:08 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:08 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:08 write.go:22: ObjectID("5ecd75c0f3dfed2ebd3433d3")
+23:02:08 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:08 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:08 write.go:22: ObjectID("5ecd75c0f3dfed2ebd3433d4")
+23:02:08 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:08 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:08 write.go:22: ObjectID("5ecd75c0f3dfed2ebd3433d5")
+23:02:08 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:08 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:08 write.go:22: ObjectID("5ecd75c0f3dfed2ebd3433d6")
+23:02:08 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:08 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:08 write.go:22: ObjectID("5ecd75c0f3dfed2ebd3433d7")
+23:02:09 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:09 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:09 write.go:22: ObjectID("5ecd75c1f3dfed2ebd3433d8")
+23:02:09 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:09 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:09 write.go:22: ObjectID("5ecd75c1f3dfed2ebd3433d9")
+23:02:09 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:09 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:09 write.go:22: ObjectID("5ecd75c1f3dfed2ebd3433da")
+23:02:09 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:09 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:09 write.go:22: ObjectID("5ecd75c1f3dfed2ebd3433db")
+23:02:10 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:10 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:10 write.go:22: ObjectID("5ecd75c2f3dfed2ebd3433dc")
+23:02:10 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:10 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:10 write.go:22: ObjectID("5ecd75c2f3dfed2ebd3433dd")
+23:02:10 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:10 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:10 write.go:22: ObjectID("5ecd75c2f3dfed2ebd3433de")
+23:02:10 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:10 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:10 write.go:22: ObjectID("5ecd75c2f3dfed2ebd3433df")
+23:02:10 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:10 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:11 write.go:22: ObjectID("5ecd75c2f3dfed2ebd3433e0")
+23:02:11 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:11 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:11 write.go:22: ObjectID("5ecd75c3f3dfed2ebd3433e1")
+23:02:11 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:11 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:11 write.go:22: ObjectID("5ecd75c3f3dfed2ebd3433e2")
+23:02:11 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:11 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:11 write.go:22: ObjectID("5ecd75c3f3dfed2ebd3433e3")
+23:02:11 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:11 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:11 write.go:22: ObjectID("5ecd75c3f3dfed2ebd3433e4")
+23:02:12 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:12 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:12 write.go:22: ObjectID("5ecd75c4f3dfed2ebd3433e5")
+23:02:12 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:12 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:12 write.go:22: ObjectID("5ecd75c4f3dfed2ebd3433e6")
+23:02:12 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:12 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:12 write.go:22: ObjectID("5ecd75c4f3dfed2ebd3433e7")
+23:02:12 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:12 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:12 write.go:22: ObjectID("5ecd75c4f3dfed2ebd3433e8")
+23:02:12 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:12 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:13 write.go:22: ObjectID("5ecd75c4f3dfed2ebd3433e9")
+23:02:13 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:13 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:13 write.go:22: ObjectID("5ecd75c5f3dfed2ebd3433ea")
+23:02:13 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:13 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:13 write.go:22: ObjectID("5ecd75c5f3dfed2ebd3433eb")
+23:02:13 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:13 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:13 write.go:22: ObjectID("5ecd75c5f3dfed2ebd3433ec")
+23:02:13 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:13 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:13 write.go:22: ObjectID("5ecd75c5f3dfed2ebd3433ed")
+23:02:14 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:14 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:14 write.go:22: ObjectID("5ecd75c6f3dfed2ebd3433ee")
+23:02:14 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:14 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:14 write.go:22: ObjectID("5ecd75c6f3dfed2ebd3433ef")
+23:02:14 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:14 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:14 write.go:22: ObjectID("5ecd75c6f3dfed2ebd3433f0")
+23:02:14 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:14 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:14 write.go:22: ObjectID("5ecd75c6f3dfed2ebd3433f1")
+23:02:15 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:15 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:15 write.go:22: ObjectID("5ecd75c7f3dfed2ebd3433f2")
+23:02:15 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:15 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:15 write.go:22: ObjectID("5ecd75c7f3dfed2ebd3433f3")
+23:02:15 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:15 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:15 write.go:22: ObjectID("5ecd75c7f3dfed2ebd3433f4")
+23:02:15 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:15 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:15 write.go:22: ObjectID("5ecd75c7f3dfed2ebd3433f5")
+23:02:16 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:16 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:16 write.go:22: ObjectID("5ecd75c8f3dfed2ebd3433f6")
+23:02:16 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:16 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:16 write.go:22: ObjectID("5ecd75c8f3dfed2ebd3433f7")
+23:02:16 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:16 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:16 write.go:22: ObjectID("5ecd75c8f3dfed2ebd3433f8")
+23:02:16 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:16 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:16 write.go:22: ObjectID("5ecd75c8f3dfed2ebd3433f9")
+23:02:17 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:17 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:17 write.go:22: ObjectID("5ecd75c9f3dfed2ebd3433fa")
+23:02:17 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:17 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:17 write.go:22: ObjectID("5ecd75c9f3dfed2ebd3433fb")
+23:02:17 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:17 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:17 write.go:22: ObjectID("5ecd75c9f3dfed2ebd3433fc")
+23:02:17 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:17 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:17 write.go:22: ObjectID("5ecd75c9f3dfed2ebd3433fd")
+23:02:18 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:18 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:18 write.go:22: ObjectID("5ecd75caf3dfed2ebd3433fe")
+23:02:18 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:18 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:18 write.go:22: ObjectID("5ecd75caf3dfed2ebd3433ff")
+23:02:18 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:18 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:18 write.go:22: ObjectID("5ecd75caf3dfed2ebd343400")
+23:02:18 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:18 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:18 write.go:22: ObjectID("5ecd75caf3dfed2ebd343401")
+23:02:19 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:19 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:19 write.go:22: ObjectID("5ecd75cbf3dfed2ebd343402")
+23:02:19 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:19 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:19 write.go:22: ObjectID("5ecd75cbf3dfed2ebd343403")
+23:02:19 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:19 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:19 write.go:22: ObjectID("5ecd75cbf3dfed2ebd343404")
+23:02:19 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:19 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:19 write.go:22: ObjectID("5ecd75cbf3dfed2ebd343405")
+23:02:20 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:20 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:20 write.go:22: ObjectID("5ecd75ccf3dfed2ebd343406")
+23:02:20 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:20 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:20 write.go:22: ObjectID("5ecd75ccf3dfed2ebd343407")
+23:02:20 setSocket.go:66: invalid character 'S' looking for beginning of value
+23:02:20 setSocket.go:68: {0 0 0 0 0 0 [] [] 0  0}
+23:02:20 write.go:22: ObjectID("5ecd75ccf3dfed2ebd343408")
+23:02:20 setSocket.go:66: invalid character 'S' looking for beginning of value
+23:02:20 setSocket.go:68: {0 0 0 0 0 0 [] [] 0  0}
+23:02:20 write.go:22: ObjectID("5ecd75ccf3dfed2ebd343409")
+23:02:21 setSocket.go:66: invalid character 'S' looking for beginning of value
+23:02:21 setSocket.go:68: {0 0 0 0 0 0 [] [] 0  0}
+23:02:21 write.go:22: ObjectID("5ecd75cdf3dfed2ebd34340a")
+23:02:21 setSocket.go:66: invalid character 'S' looking for beginning of value
+23:02:21 setSocket.go:68: {0 0 0 0 0 0 [] [] 0  0}
+23:02:21 write.go:22: ObjectID("5ecd75cdf3dfed2ebd34340b")
+23:02:21 setSocket.go:66: invalid character 'S' looking for beginning of value
+23:02:21 setSocket.go:68: {0 0 0 0 0 0 [] [] 0  0}
+23:02:21 write.go:22: ObjectID("5ecd75cdf3dfed2ebd34340c")
+23:02:21 setSocket.go:66: invalid character 'S' looking for beginning of value
+23:02:21 setSocket.go:68: {0 0 0 0 0 0 [] [] 0  0}
+23:02:21 write.go:22: ObjectID("5ecd75cdf3dfed2ebd34340d")
+23:02:22 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:22 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:22 write.go:22: ObjectID("5ecd75cef3dfed2ebd34340e")
+23:02:22 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:22 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:23 write.go:22: ObjectID("5ecd75cef3dfed2ebd34340f")
+23:02:23 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:23 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:23 write.go:22: ObjectID("5ecd75cff3dfed2ebd343410")
+23:02:23 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:23 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:23 write.go:22: ObjectID("5ecd75cff3dfed2ebd343411")
+23:02:23 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:23 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:23 write.go:22: ObjectID("5ecd75cff3dfed2ebd343412")
+23:02:24 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:24 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:24 write.go:22: ObjectID("5ecd75d0f3dfed2ebd343413")
+23:02:24 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:24 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:24 write.go:22: ObjectID("5ecd75d0f3dfed2ebd343414")
+23:02:42 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:42 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:42 write.go:22: ObjectID("5ecd75e2f3dfed2ebd343415")
+23:02:43 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:43 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:43 write.go:22: ObjectID("5ecd75e3f3dfed2ebd343416")
+23:02:43 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:43 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:43 write.go:22: ObjectID("5ecd75e3f3dfed2ebd343417")
+23:02:43 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:43 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:43 write.go:22: ObjectID("5ecd75e3f3dfed2ebd343418")
+23:02:43 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:43 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:44 write.go:22: ObjectID("5ecd75e3f3dfed2ebd343419")
+23:02:44 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:44 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:44 write.go:22: ObjectID("5ecd75e4f3dfed2ebd34341a")
+23:02:44 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:44 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:44 write.go:22: ObjectID("5ecd75e4f3dfed2ebd34341b")
+23:02:44 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:44 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:44 write.go:22: ObjectID("5ecd75e4f3dfed2ebd34341c")
+23:02:44 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:44 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:44 write.go:22: ObjectID("5ecd75e4f3dfed2ebd34341d")
+23:02:45 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:45 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:45 write.go:22: ObjectID("5ecd75e5f3dfed2ebd34341e")
+23:02:45 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:45 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:45 write.go:22: ObjectID("5ecd75e5f3dfed2ebd34341f")
+23:02:45 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:45 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:45 write.go:22: ObjectID("5ecd75e5f3dfed2ebd343420")
+23:02:45 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:45 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:45 write.go:22: ObjectID("5ecd75e5f3dfed2ebd343421")
+23:02:46 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:46 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:46 write.go:22: ObjectID("5ecd75e6f3dfed2ebd343422")
+23:02:46 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:46 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:46 write.go:22: ObjectID("5ecd75e6f3dfed2ebd343423")
+23:02:46 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:46 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:46 write.go:22: ObjectID("5ecd75e6f3dfed2ebd343424")
+23:02:46 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:46 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:47 write.go:22: ObjectID("5ecd75e6f3dfed2ebd343425")
+23:02:47 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:47 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:47 write.go:22: ObjectID("5ecd75e7f3dfed2ebd343426")
+23:02:47 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:47 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:47 write.go:22: ObjectID("5ecd75e7f3dfed2ebd343427")
+23:02:47 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:47 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:47 write.go:22: ObjectID("5ecd75e7f3dfed2ebd343428")
+23:02:47 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:47 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:48 write.go:22: ObjectID("5ecd75e7f3dfed2ebd343429")
+23:02:48 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:48 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:48 write.go:22: ObjectID("5ecd75e8f3dfed2ebd34342a")
+23:02:48 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:48 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:48 write.go:22: ObjectID("5ecd75e8f3dfed2ebd34342b")
+23:02:48 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:48 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:48 write.go:22: ObjectID("5ecd75e8f3dfed2ebd34342c")
+23:02:48 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:48 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:49 write.go:22: ObjectID("5ecd75e8f3dfed2ebd34342d")
+23:02:49 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:49 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:49 write.go:22: ObjectID("5ecd75e9f3dfed2ebd34342e")
+23:02:49 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:49 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:49 write.go:22: ObjectID("5ecd75e9f3dfed2ebd34342f")
+23:02:49 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:49 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:49 write.go:22: ObjectID("5ecd75e9f3dfed2ebd343430")
+23:02:50 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:50 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:50 write.go:22: ObjectID("5ecd75eaf3dfed2ebd343431")
+23:02:50 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:50 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:50 write.go:22: ObjectID("5ecd75eaf3dfed2ebd343432")
+23:02:50 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:50 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:50 write.go:22: ObjectID("5ecd75eaf3dfed2ebd343433")
+23:02:50 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:50 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:50 write.go:22: ObjectID("5ecd75eaf3dfed2ebd343434")
+23:02:51 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:51 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:51 write.go:22: ObjectID("5ecd75ebf3dfed2ebd343435")
+23:02:51 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:51 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:51 write.go:22: ObjectID("5ecd75ebf3dfed2ebd343436")
+23:02:51 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:51 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:51 write.go:22: ObjectID("5ecd75ebf3dfed2ebd343437")
+23:02:51 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:51 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:51 write.go:22: ObjectID("5ecd75ebf3dfed2ebd343438")
+23:02:52 setSocket.go:66: json: cannot unmarshal string into Go struct field SolidData.createdAt of type int64
+23:02:52 setSocket.go:68: {32.4 26.3 0 56.2 72 14 [12 13 12.4] [23 55] 0  0}
+23:02:52 write.go:22: ObjectID("5ecd75ecf3dfed2ebd343439")

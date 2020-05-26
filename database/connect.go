@@ -9,15 +9,10 @@ import (
 )
 
 var col *mongo.Collection // Create Global Variable for Share data collection in this package
+var logger *log.Logger
 
 //Connect function for Connect database and get collections
 func Connect(dburl string) {
-	// credential := options.Credential{
-	// 	Username: "Test",
-	// 	Password: "test12",
-	// }
-
-	// clientOptions := options.Client().ApplyURI(dburl).SetAuth(credential)
 	client, err := mongo.Connect(context.TODO(), options.Client().ApplyURI(dburl).SetRetryWrites(false)) // Connect Database
 	if err != nil {
 		log.Fatal("error : " + err.Error())
@@ -29,4 +24,9 @@ func Connect(dburl string) {
 	}
 	collection := client.Database("login").Collection("data") //Getting data collection from database
 	col = collection                                          // Send collection to global data variable.
+}
+
+// SetLoggerDB function will be get logger structs from main
+func SetLoggerDB(log *log.Logger) {
+	logger = log
 }
