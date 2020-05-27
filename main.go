@@ -2,7 +2,6 @@ package main
 
 import (
 	"flag"
-	"fmt"
 	"io"
 	"log"
 	"os"
@@ -39,8 +38,6 @@ func main() {
 	database.Connect(url)
 
 	route := gin.New()
-	route.Use(gin.Recovery())
-
 	socket.SetSockets(route)
 	if err := route.Run(port); err != nil {
 		log.Fatal(err)
@@ -57,7 +54,6 @@ func setParams() (string, string) {
 	if env {
 		url := os.Getenv("DB_URL")
 		port := os.Getenv("TELEMPORT")
-		fmt.Println(url, "\n", port)
 		return url, port
 	}
 	return url, port

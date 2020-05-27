@@ -23,9 +23,11 @@ var upgrader = websocket.Upgrader{
 
 // SetSockets a main function of this package
 func SetSockets(route *gin.Engine) {
+	route.Use(gin.Recovery())
 
 	route.GET("/data/listen", DataWaiters)
 	route.GET("/data/post", ListenerForCar)
+
 	go manager()
 }
 
