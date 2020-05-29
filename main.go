@@ -13,23 +13,35 @@ import (
 )
 
 func init() {
+	// Log çıkarırken renklere ihtiyaç yok.
 	gin.DisableConsoleColor()
+
+	// Default logger için dosya oluşturup gin'e verdim.
 	f, _ := os.Create("logs/gin.log")
-	gin.DefaultWriter = io.MultiWriter(f)
+	gin.DefaultWriter = io.MultiWriter(f, os.Stdout)
+
+	// Hata ve bilgilerin yazılması için log dosyası açtım.
 	f, err := os.Create("logs/log.txt")
 	if err != nil {
 		log.Println(err)
 	}
+	// Dosyayı kullanarak yeni bir logger objesi oluşturdum ve çıktı biçimini düzenledim.
 	logger := log.New(f, "", log.Ltime)
 	logger.SetFlags(log.Lshortfile | log.Ltime)
+
+	// Database'e logger'ını verdim.
 	database.SetLoggerDB(logger)
 
+	// Veri kayıtlarını ilkel biçimde de tutuyorum.
 	f, err = os.Create("logs/data.txt")
 	if err != nil {
 		logger.Println("Create Data Log Error: ", err)
 	}
+
+	// Dosyayı kullanarak yeni bir logger objesi oluşturdum ve çıktı biçimini düzenledim.
 	dataSaver := log.New(f, "", log.Lmsgprefix)
 	dataSaver.SetFlags(log.Ldate | log.Ltime)
+	// Kayıt için logger'ını verdim.
 	socket.SetLoggerSocket(logger, dataSaver)
 }
 
@@ -44,6 +56,7 @@ func main() {
 	}
 }
 
+// setParams fonksiyonu çalıştırırken temel bilgileri almak için.
 func setParams() (string, string) {
 	var env bool
 	var url, port string

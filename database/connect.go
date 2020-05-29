@@ -8,22 +8,26 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-var col *mongo.Collection // Create Global Variable for Share data collection in this package
+var col *mongo.Collection // Paket içinden collection'a ulaşmak için bir nesne oluşturdum.
 var logger *log.Logger
 
-//Connect function for Connect database and get collections
+//Connect fonksiyonu server'a bağlanıp bize collection verecek.
 func Connect(dburl string) {
-	client, err := mongo.Connect(context.TODO(), options.Client().ApplyURI(dburl).SetRetryWrites(false)) // Connect Database
+	// Server'a bağlanma kısmı. RetryWrites kısmı MLab bağlantısı için kapalı. Açmanız sorun olmaz.
+	client, err := mongo.Connect(context.TODO(), options.Client().ApplyURI(dburl).SetRetryWrites(false))
 	if err != nil {
 		log.Fatal("error : " + err.Error())
 	}
-	err = client.Ping(context.TODO(), nil)
 
+	// Server bağlantısını test ediyorum.
+	err = client.Ping(context.TODO(), nil)
 	if err != nil {
 		log.Fatal("Error while pinging to the DB", err)
 	}
-	collection := client.Database("login").Collection("data") //Getting data collection from database
-	col = collection                                          // Send collection to global data variable.
+
+	// İstediğim collectionu alıyorum.
+	collection := client.Database("login").Collection("data")
+	col = collection
 }
 
 // SetLoggerDB function will be get logger structs from main
