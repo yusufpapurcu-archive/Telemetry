@@ -17,3 +17,6 @@ RUN go get -v github.com/yusufpapurcu/Telemetry
 # Tamamını derledim ve Entrypoint ayarladım.
 RUN go build -o main .
 ENTRYPOINT [ "./main" ]
+
+#docker build -t telempack . -f Dockerfile 
+#docker run --name=Telemetry -v /home/yusuftp/log:/app/logs -p 8080:8080 --env-file ./.env telempack -env 

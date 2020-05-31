@@ -26,7 +26,7 @@ func Connect(dburl string) {
 	}
 
 	// İstediğim collectionu alıyorum.
-	collection := client.Database("login").Collection("data")
+	collection := client.Database("telemetry").Collection("data")
 	col = collection
 }
 

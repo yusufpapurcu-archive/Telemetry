@@ -1,0 +1,16 @@
+version: '3'
+services: 
+  telemetry:
+    image: "telempack"
+    ports:
+      - "8080:8080"
+    volumes:
+      - /logs:/app/logs
+    environment:
+      TELEMPORT: ":8080"
+      DB_URL: "mongodb://mongo:27017"
+    command: "-env"
+  mongo:
+    image: "mongo"
+
+# Log files problem will fix
