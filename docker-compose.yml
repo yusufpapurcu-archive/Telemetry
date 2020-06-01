@@ -5,7 +5,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - /logs:/app/logs
+      - ./logs:/app/logs
     environment:
       TELEMPORT: ":8080"
       DB_URL: "mongodb://mongo:27017"
