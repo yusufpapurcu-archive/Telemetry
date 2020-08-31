@@ -1,0 +1,26 @@
+12:23:05 setSocket.go:97: Read Error: websocket: close 1005 (no status)
+12:24:38 setSocket.go:97: Read Error: websocket: close 1005 (no status)
+17:09:23 setSocket.go:56: Brodcast Error : write tcp 127.0.0.1:8080->127.0.0.1:33404: write: connection reset by peer
+17:15:28 setSocket.go:96: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:50797: read: connection reset by peer
+17:18:05 setSocket.go:96: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:60040: read: connection reset by peer
+17:19:39 setSocket.go:96: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:58567: read: connection reset by peer
+17:33:52 setSocket.go:96: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:57501: read: connection reset by peer
+17:36:29 setSocket.go:96: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:56637: read: connection reset by peer
+17:38:49 setSocket.go:96: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:57313: read: connection reset by peer
+17:42:05 setSocket.go:96: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:64287: read: connection reset by peer
+17:44:17 setSocket.go:96: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:61367: read: connection reset by peer
+17:45:12 setSocket.go:96: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:49757: read: connection reset by peer
+17:46:06 setSocket.go:56: Brodcast Error : write tcp 127.0.0.1:8080->127.0.0.1:33406: write: broken pipe
+17:55:36 setSocket.go:56: Brodcast Error : write tcp 127.0.0.1:8080->127.0.0.1:33432: write: broken pipe
+17:59:26 setSocket.go:96: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:54305: read: connection reset by peer
+18:03:36 setSocket.go:96: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:58179: read: connection timed out
+18:25:26 setSocket.go:96: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:51871: read: connection timed out
+18:32:11 setSocket.go:56: Brodcast Error : write tcp 127.0.0.1:8080->127.0.0.1:33452: write: broken pipe
+18:33:58 setSocket.go:96: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:61869: read: connection reset by peer
+18:34:07 setSocket.go:56: Brodcast Error : write tcp 127.0.0.1:8080->127.0.0.1:33460: write: broken pipe
+18:52:06 setSocket.go:56: Brodcast Error : write tcp 127.0.0.1:8080->127.0.0.1:33462: write: broken pipe
+18:54:11 setSocket.go:56: Brodcast Error : write tcp 127.0.0.1:8080->127.0.0.1:33474: write: broken pipe
+18:54:11 setSocket.go:56: Brodcast Error : write tcp 127.0.0.1:8080->127.0.0.1:33476: write: broken pipe
+19:03:49 setSocket.go:57: Brodcast Error : write tcp 127.0.0.1:8080->127.0.0.1:33526: write: broken pipe
+19:06:54 setSocket.go:97: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:58366: use of closed network connection
+19:17:07 setSocket.go:97: Read Error: read tcp 192.168.43.208:8080->192.168.43.119:55152: use of closed network connection

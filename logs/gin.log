@@ -1,0 +1,147 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 500
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 500
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 500
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /data/listen              --> github.com/yusufpapurcu/Telemetry/socket.DataWaiters (2 handlers)
+[GIN-debug] GET    /data/post                --> github.com/yusufpapurcu/Telemetry/socket.ListenerForCar (2 handlers)
+[GIN-debug] GET    /data/listen/mobile       --> github.com/yusufpapurcu/Telemetry/socket.MobileDataWaiters (2 handlers)
+[GIN-debug] Listening and serving HTTP on :8080

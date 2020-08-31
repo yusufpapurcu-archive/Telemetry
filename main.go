@@ -17,11 +17,11 @@ func init() {
 	gin.DisableConsoleColor()
 
 	// Default logger için dosya oluşturup gin'e verdim.
-	f, _ := os.Create("logs/gin.log")
+	f, _ := os.OpenFile("logs/gin.log", os.O_WRONLY|os.O_APPEND|os.O_CREATE, 0755)
 	gin.DefaultWriter = io.MultiWriter(f, os.Stdout)
 
 	// Hata ve bilgilerin yazılması için log dosyası açtım.
-	f, err := os.Create("logs/log.txt")
+	f, err := os.OpenFile("logs/log.txt", os.O_WRONLY|os.O_APPEND|os.O_CREATE, 0755)
 	if err != nil {
 		log.Println(err)
 	}
@@ -33,7 +33,7 @@ func init() {
 	database.SetLoggerDB(logger)
 
 	// Veri kayıtlarını ilkel biçimde de tutuyorum.
-	f, err = os.Create("logs/data.txt")
+	f, err = os.OpenFile("logs/data.txt", os.O_WRONLY|os.O_APPEND|os.O_CREATE, 0755)
 	if err != nil {
 		logger.Println("Create Data Log Error: ", err)
 	}
@@ -46,8 +46,8 @@ func init() {
 }
 
 func main() {
-	url, port := setParams()
-	database.Connect(url)
+	_, port := setParams()
+	//database.Connect(url)
 
 	route := gin.New()
 	socket.SetSockets(route)
